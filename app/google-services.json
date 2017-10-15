@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "676889565285",
+    "firebase_url": "https://jontrona-6b9d3.firebaseio.com",
+    "project_id": "jontrona-6b9d3",
+    "storage_bucket": "jontrona-6b9d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676889565285:android:869a365032b0ff75",
+        "android_client_info": {
+          "package_name": "com.cse.mist.bookstack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676889565285-j3prbd6ikavv5ogsilk5gumfi8fk0vvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlV1kr725IYtAa_TWA2GP9CwpPPVBNEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

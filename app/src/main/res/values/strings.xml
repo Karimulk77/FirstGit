@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BookStack</string>
+    <string name="hitName">Enter your name</string>
+    <string name="hitemail">Enter your email</string>
+    <string name="hitpass">Enter your password</string>
+    <string name="hitlevel">Enter your level</string>
+    <string name="hitphn">Enter your phone number</string>
+    <string name="hituni">Enter your university </string>
+    <string name="hitroll">Enter your roll</string>
+
+    <string name="alerNam">Please enter your name</string>
+    <string name="alerEmail">Please enter your email</string>
+    <string name="alerPasword">Please enter your password</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="user_profile">Profile</string>
+    <string name="select_image">Select Image</string>
+    <string name="name">Name:</string>
+    <string name="university">University:</string>
+    <string name="roll">Roll:</string>
+    <string name="contact">Contact</string>
+    <string name="email">Email:</string>
+    <string name="selectimage">Select Image</string>
+    <string name="notication">Notication</string>
+    <string name="book_name">Book Name</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="borrow_book">Borrow Book</string>
+    <array name="genres">
+        <item name="Drama">Drama</item>
+        <item name="Textbook">Textbook</item>
+        <item name="History">History</item>
+        <item name="Thriller">Thriller</item>
+        <item name="others">others</item>
+    </array>
+
+    <array name="genres1">
+        <item name="Sell">Sell</item>
+        <item name="Lend">Lend</item>
+        <item name="others">others</item>
+    </array>
+    <string name="enter_name">enter book name</string>
+    <string name="enter_writer">enter writer name</string>
+
+    <string name="add_book">Add book</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="enter_book_name">Enter Book Name</string>
+</resources>

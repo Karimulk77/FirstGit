@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dip10"
+    android:background="@drawable/pic3"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/tvRegBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dip10"
+        android:background="@drawable/tv_bg"
+        android:gravity="center"
+        android:padding="@dimen/dip10"
+        android:text="SIGN UP"
+        android:textSize="@dimen/textSize20"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRegBtn1"
+        android:layout_marginBottom="@dimen/dip10"
+        android:background="@drawable/ev_bg"
+        android:hint="@string/hitName"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/textSize15" />
+
+    <EditText
+        android:id="@+id/etUni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_marginBottom="@dimen/dip10"
+        android:background="@drawable/ev_bg"
+        android:hint="@string/hituni"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/textSize15" />
+
+    <EditText
+        android:id="@+id/etroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUni"
+        android:layout_marginBottom="@dimen/dip10"
+        android:background="@drawable/ev_bg"
+        android:hint="@string/hitroll"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/textSize15" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="@dimen/dip10"
+        android:background="@drawable/ev_bg"
+        android:hint="@string/hitpass"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="15dp"
+
+        android:textSize="@dimen/textSize15" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etroll"
+        android:background="@drawable/ev_bg"
+        android:hint="@string/hitemail"
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/textSize15" />
+
+    <EditText
+        android:id="@+id/etphn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="@dimen/dip10"
+        android:background="@drawable/ev_bg"
+        android:hint="@string/hitphn"
+        android:inputType="phone"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="15dp"
+
+        android:textSize="@dimen/textSize15" />
+
+    <Button
+        android:id="@+id/tvRegBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etphn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tv_bg"
+        android:gravity="center"
+        android:padding="@dimen/dip10"
+        android:text="DONE"
+        android:textSize="@dimen/textSize20"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

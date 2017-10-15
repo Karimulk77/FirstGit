@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="Select Duration">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/one1"
+                    android:orderInCategory="1"
+                    android:title="7_days" />
+                <item
+                    android:id="@+id/one2"
+                    android:orderInCategory="1"
+                    android:title="15_days" />
+                <item
+                    android:id="@+id/one3"
+                    android:orderInCategory="1"
+                    android:title="1_month" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/two"
+        android:title="Confirm" />
+
+</menu>
